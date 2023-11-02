@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1A0C6900-A9C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenRequestor", "src\TokenRequestor\TokenRequestor.csproj", "{7CC63A53-1D88-4EBF-84EA-62D6846B2E1C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdP", "src\IdP\IdP.csproj", "{E93070D2-8EF7-4192-A477-6DF914030CB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +22,13 @@ Global
 		{7CC63A53-1D88-4EBF-84EA-62D6846B2E1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CC63A53-1D88-4EBF-84EA-62D6846B2E1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CC63A53-1D88-4EBF-84EA-62D6846B2E1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E93070D2-8EF7-4192-A477-6DF914030CB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E93070D2-8EF7-4192-A477-6DF914030CB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E93070D2-8EF7-4192-A477-6DF914030CB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E93070D2-8EF7-4192-A477-6DF914030CB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7CC63A53-1D88-4EBF-84EA-62D6846B2E1C} = {1A0C6900-A9C5-4645-B647-2BECEEC2C195}
+		{E93070D2-8EF7-4192-A477-6DF914030CB1} = {1A0C6900-A9C5-4645-B647-2BECEEC2C195}
 	EndGlobalSection
 EndGlobal
